@@ -1,7 +1,5 @@
 # Python Requests + BeautifulSoup
 
-
-
 ### Web Crawler
 
 우리가 어떤 정보를 브라우저에서만 보는 것 뿐 아니라 그 정보들을 내가 이용하기 편한 방식(ex: json)으로 로컬에 저장하고 싶을 때가 있다.
@@ -50,3 +48,12 @@ Requests는 정말 좋은 라이브러리이지만, html을 ‘의미있는’, 
 
 
 
+---
+
+
+
+**https://trees.gamemeca.com/gamerank/#1521881342690-f60aa3c1-8642**
+
+![image](https://user-images.githubusercontent.com/41619898/74377566-8200c100-4e27-11ea-9276-8b2520328a7b.png)
+
+![image](https://user-images.githubusercontent.com/41619898/74377692-bf654e80-4e27-11ea-823d-b883ce93b39c.png)

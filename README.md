@@ -36,6 +36,17 @@ Python을 이용하면 간단한 코드 몇줄 만으로도 쉽게 웹 사이트
 
 Python에는 requests라는 유명한 http request 라이브러리가 있다.
 
+###### HTTP methods such as `GET` and `POST`, determine which action you’re trying to perform when making an HTTP request.
+
+###### One of the most common HTTP methods is `GET`. The `GET` method indicates that you’re trying to get or retrieve data from a specified resource. To make a `GET` request, invoke `requests.get()`.
+
+###### To test this out, you can make a `GET` request to GitHub’s Root REST API by calling `get()` with the following URL:
+
+```python
+>>> requests.get('https://api.github.com')
+<Response [200]>
+```
+
 
 
 ### BeautifulSoup
@@ -45,6 +56,8 @@ BeautifulSoup는 HTML과 XML 파일의 데이터를 가져오기 위한 파이�
 Requests는 정말 좋은 라이브러리이지만, html을 ‘의미있는’, 즉 Python이 이해하는 객체 구조로 만들어주지는 못한다. 위에서 req.text는 python의 문자열(str)객체를 반환할 뿐이기 때문에 정보를 추출하기가 어렵다.
 
 따라서 BeautifulSoup을 이용하게 된다. 이 BeautifulSoup은 html 코드를 Python이 이해하는 객체 구조로 변환하는 Parsing을 맡고 있고, 이 라이브러리를 이용해 우리는 제대로 된 ‘의미있는’ 정보를 추출해 낼 수 있다.
+
+###### Beautiful Soup Documentation : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
 

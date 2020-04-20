@@ -1,36 +1,32 @@
-# Python Requests + BeautifulSoup
+# Python `requests` + BeautifulSoup
 
 ### Web Crawler
 
-우리가 어떤 정보를 브라우저에서만 보는 것 뿐 아니라 그 정보들을 내가 이용하기 편한 방식(ex: json)으로 로컬에 저장하고 싶을 때가 있다.
+Python allows us to easily retrieve specific information from a website with just a few lines of code. This is useful when we not only want to view information in a web browser but also want to store that information locally in a format that is convenient for us to use, such as JSON.
 
-HTTrack의 경우에는 웹을 그대로 자신의 컴퓨터로 복사를 해오지만, 내가 원하는 방식으로의 가공까지는 제공해주지 않는다.
+By utilizing web crawling techniques, we can programmatically navigate through web pages, extract the desired data, and save it for further processing or analysis. With Python's libraries like requests and BeautifulSoup, we can send HTTP requests to web servers, parse the HTML content of web pages, and extract the relevant information.
 
-Python을 이용하면 간단한 코드 몇줄 만으로도 쉽게 웹 사이트에서 원하는 정보만을 가져올 수 있다.
+Web crawling offers great flexibility, enabling us to scrape data from multiple pages, follow links, handle pagination, and apply various filters to retrieve precisely the information we need. With a well-designed web crawler, we can automate the process of gathering data from the web, saving us time and effort.
 
-
+<br/>
 
 ### Parsing? Parser?
 
-파싱이란 어떤 데이터를 원하는 모양으로 만들어 내는걸 말한다.
+Parsing refers to the process of transforming data into a desired format or structure.
 
+**1. Parsing:**
 
+Parsing involves taking a specific document (such as XML) and converting it into an internal representation that can be utilized by other programs or subroutines. For example, when you look at an XML document, you will notice tags enclosed in angle brackets (<>) similar to HTML. Parsing is the process of converting such input into a format that can be understood by a computer.
 
-**1. Parsing(파싱) :** 
+As part of a compiler, parsing plays a crucial role in reading source code, online commands, HTML documents, or similar inputs and dividing them into syntactically interpretable units. It analyzes the structure of the input and determines its components and relationships.
 
-1) 특정문서(XML 따위)를 읽어 들여서 이를 다른 프로그램이나 서브루틴이 사용할 수 있는 내부 의 표현 방식으로 변환시켜 주는 것이다. XML 문서를 보시면 HTML처럼 <>태그가 보일 것입니다. 사용자가 이렇게 입력하지만 컴터가 알아 볼 수 있도록 바꿔주는 과정을 의미한다.
+**2. Parser:**
 
-2) 컴파일러의 일부로써 원시 프로그램의 명령문이나 온라인 명령문, HTML 문서등에서 마크업태그등을 입력으로 받아들여서 구문을 해석 할수 있는 단위로 여러부분으로 분할해 주는 역할을 한다.
+A parser is the component responsible for carrying out the parsing process. It is a program or module that performs parsing tasks.
 
+In the context of a compiler or interpreter, a parser reads the source code or raw program and performs syntax analysis (parsing). It examines the structure of the program's statements or commands, ensuring they adhere to the specified grammar or rules. The parser identifies the components of the input and constructs a representation (such as an abstract syntax tree) that can be further processed by the compiler or interpreter.
 
-
-**2. Parser(파서) :**
-
-1) 파서는 파싱을 하는 프로세서를 파서라고 한다. 즉, 파서가 파싱 작업을 하는 것이다.
-
-2) 파서(parser)란 컴파일러의 일부로서 원시 프로그램즉, 컴퍼일러나 인터프리터에서 원시 프로그램을 읽어 들여, 그문장의 구조를 알아내는 구문 분석(parsing)을 행하는 프로그램을 말한다.
-
-
+<br/>
 
 ### Requests
 
@@ -47,8 +43,6 @@ Python에는 requests라는 유명한 http request 라이브러리가 있다.
 <Response [200]>
 ```
 
-
-
 ### BeautifulSoup
 
 BeautifulSoup는 HTML과 XML 파일의 데이터를 가져오기 위한 파이썬 라이브러리이다.
@@ -59,11 +53,7 @@ Requests는 정말 좋은 라이브러리이지만, html을 ‘의미있는’, 
 
 ###### Beautiful Soup Documentation : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-
-
 ---
-
-
 
 **https://trees.gamemeca.com/gamerank/#1521881342690-f60aa3c1-8642**
 

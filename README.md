@@ -1,4 +1,4 @@
-# Python `requests` + BeautifulSoup
+# Python `requests` + Beautiful Soup
 
 ### Web Crawler
 
@@ -28,35 +28,45 @@ In the context of a compiler or interpreter, a parser reads the source code or r
 
 <br/>
 
-### Requests
+### `requests`
 
-Python에는 requests라는 유명한 http request 라이브러리가 있다.
+Python provides a popular HTTP request library called requests.
 
-###### HTTP methods such as `GET` and `POST`, determine which action you’re trying to perform when making an HTTP request.
-
-###### One of the most common HTTP methods is `GET`. The `GET` method indicates that you’re trying to get or retrieve data from a specified resource. To make a `GET` request, invoke `requests.get()`.
-
-###### To test this out, you can make a `GET` request to GitHub’s Root REST API by calling `get()` with the following URL:
+HTTP methods such as `GET` and `POST` are used to specify the action you want to perform when making an HTTP request.
+One of the most commonly used HTTP methods is `GET`. The `GET` method is used to retrieve or fetch data from a specified resource. You can make a `GET` request by using the `requests.get()` function.
+To test it out, you can make a `GET` request to GitHub's Root REST API by calling `get()` with the following URL:
 
 ```python
->>> requests.get('https://api.github.com')
+>>> import requests
+>>> response = requests.get('https://api.github.com')
+>>> print(response)
 <Response [200]>
 ```
 
-### BeautifulSoup
+In the above example, we import the `requests` library and use the `get()` function to send a `GET` request to the specified URL. The response object contains information about the request and the received response. In this case, the response status code `200` indicates a successful request.
 
-BeautifulSoup는 HTML과 XML 파일의 데이터를 가져오기 위한 파이썬 라이브러리이다.
+<br/>
 
-Requests는 정말 좋은 라이브러리이지만, html을 ‘의미있는’, 즉 Python이 이해하는 객체 구조로 만들어주지는 못한다. 위에서 req.text는 python의 문자열(str)객체를 반환할 뿐이기 때문에 정보를 추출하기가 어렵다.
+### Beautiful Soup
 
-따라서 BeautifulSoup을 이용하게 된다. 이 BeautifulSoup은 html 코드를 Python이 이해하는 객체 구조로 변환하는 Parsing을 맡고 있고, 이 라이브러리를 이용해 우리는 제대로 된 ‘의미있는’ 정보를 추출해 낼 수 있다.
+> https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-###### Beautiful Soup Documentation : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Beautiful Soup is a Python library used for parsing HTML and XML files to extract data.
 
----
+While Requests is a great library, it doesn't transform the HTML into a meaningful, structured object that Python can understand. The req.text in the previous example returns a plain string object in Python, making it difficult to extract information.
 
-**https://trees.gamemeca.com/gamerank/#1521881342690-f60aa3c1-8642**
+This is where BeautifulSoup comes in. BeautifulSoup handles the parsing of HTML code and converts it into a structured object that Python can work with. With this library, we can extract meaningful information from the HTML and navigate through the document more easily.
 
-![image](https://user-images.githubusercontent.com/41619898/74377566-8200c100-4e27-11ea-9276-8b2520328a7b.png)
+<br/>
 
-![image](https://user-images.githubusercontent.com/41619898/74377692-bf654e80-4e27-11ea-823d-b883ce93b39c.png)
+### Appendix
+
+**Original Website Image**
+
+![image-origin](./README.assets/origin.png)
+
+<br/>
+
+**CSV Result Image**
+
+![image-result](./README.assets/result.png)

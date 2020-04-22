@@ -17,32 +17,34 @@ def main():
     # Parse the HTML using BeautifulSoup
     soup = BeautifulSoup(html_content, "html.parser")
 
-    # Find the container that holds the data to be crawled
-    data_container = soup.find("div", class_="vc_tta-panel-body")
-    print(f"Data Container: {data_container}")
+    # Find the ranking, title, service, and genre elements in the table
+    table_ranking = soup.findAll("td", {"class": "column-1"})
+    table_titles = soup.findAll("td", {"class": "column-2"})
+    table_service = soup.findAll("td", {"class": "column-3"})
+    table_genre = soup.findAll("td", {"class": "column-4"})
 
-    if data_container:
-        rows = data_container.find_all("tr")
+    # Create a CSV file to store the data
+    with open("game_rankings.csv", "w", newline="", encoding="utf-8") as csv_file:
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(["Ranking", "Title", "Service", "Genre"])
 
-        # Create a CSV file to store the crawled data
-        with open("game_rankings.csv", "w", newline="", encoding="utf-8") as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(["Rank", "Name", "Service", "Genre"])
+        # Print the ranking, title, service, and genre for each entry and write to CSV
+        for rank, title, service, genre in zip(
+            table_ranking, table_titles, table_service, table_genre
+        ):
+            rank_text = rank.get_text().strip()
+            title_text = title.get_text().strip()
+            service_text = service.get_text().strip()
+            genre_text = genre.get_text().strip()
 
-            # Extract the desired data and write it to the CSV file
-            for row in rows:
-                columns = row.find_all("td")
-                rank = columns[0].text.strip()
-                name = columns[1].find("a").text.strip()
-                service = columns[2].text.strip()
-                genre = columns[3].text.strip()
-                csv_writer.writerow([rank, name, service, genre])
+            print(
+                f"Ranking: {rank_text}, Title: {title_text}, Service: {service_text}, Genre: {genre_text}"
+            )
 
-        print("Data has been successfully crawled and saved to game_rankings.csv.")
-    else:
-        print(
-            "Data container not found. Please check the HTML structure of the website."
-        )
+            # Write the data to the CSV file
+            csv_writer.writerow([rank_text, title_text, service_text, genre_text])
+
+    print("Data has been successfully crawled and saved to game_rankings.csv.")
 
 
 if __name__ == "__main__":

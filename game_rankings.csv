@@ -1,1 +1,121 @@
-Rank,Name,Service,Genre
+Ranking,Title,Service,Genre
+1 (+1),ROBLOX,Roblox Corporation,어드벤처
+2 (-1),나이트 크로우,"Wemade Co., Ltd",롤플레잉
+3 (+1),리니지M,NCSOFT Corporation,롤플레잉
+4 (+3),픽셀 히어로,Ujoy Games,롤플레잉
+5 (-),오딘: 발할라 라이징,KAKAO GAMES CORP.,롤플레잉
+6 (-3),블랙클로버 모바일,VIC Game Studios,롤플레잉
+7 (-1),프라시아 전기,NEXON Company,롤플레잉
+8 (NEW),브라운더스트2 - 어드벤처 RPG,NEOWIZ,롤플레잉
+9 (+4),전략적 팀 전투,"Riot Games, Inc",전략
+10 (-2),아키에이지 워,Kakao Games Corp.,롤플레잉
+11 (-1),원신,miHoYo Limited,어드벤처
+12 (-1),리니지2M,NCSOFT Corporation,롤플레잉
+13 (-4),붕괴: 스타레일,COGNOSPHERE PTE. LTD.,어드벤처
+14 (-),무명 기사단,CookApps,시뮬레이션
+15 (+1),승리의 여신: 니케,Level Infinite,롤플레잉
+16 (+1),피파 모바일,NEXON Company,스포츠
+17 (-5),삼국 올스타,Qookka Games,롤플레잉
+18 (+1),탕탕특공대,Habby,어드벤처
+19 (-1),던전앤파이터 모바일,NEXON Company,롤플레잉
+20 (-),클로저스RT: 뉴 오더,NADDIC GAMES,롤플레잉
+21 (-),라그나로크X : Next Generation,"GRAVITY Co., Ltd",롤플레잉
+22 (-7),리니지W,NCSOFT,롤플레잉
+23 (-1),포켓몬고,"Niantic, Inc.",어드벤처
+24 (+8),에테르 게이저,BILIBILI,롤플레잉
+25 (+8),언던,Level Infinite,롤플레잉
+26 (-3),블레이드 키우기,mobirix,시뮬레이션
+27 (-),바람의나라 연,NEXON Company,롤플레잉
+28 (-4),블루 아카이브,NEXON Company,롤플레잉
+29 (-3),드래곤빌리지 컬렉션,highbrow,롤플레잉
+30 (-2),쿠키런: 킹덤,Devsisters Corporation,롤플레잉
+31 (-1),브롤스타즈,Supercell,액션
+32 (+2),메이플스토리M,NEXON Company,롤플레잉
+33 (-2),검은사막 모바일,PEARL ABYSS,롤플레잉
+34 (-9),아우터플레인,"Smilegate Holdings, Inc",롤플레잉
+35 (+4),디아블로 이모탈,"Blizzard Entertainment, Inc.",롤플레잉
+36 (-7),디스라이트,FARLIGHT,롤플레잉
+37 (-2),히트2,NEXON Company,롤플레잉
+38 (-),데블M,37 Mobile Games Oversea,롤플레잉
+39 (-2),일곱개의 대죄: 그랜드 크로스,Netmarble,롤플레잉
+40 (-),무림소녀키우기,mobirix,시뮬레이션
+1 (-),리그 오브 레전드,라이엇 게임즈,MOBA
+2 (-),디아블로 4,블리자드 엔터테인먼트,액션 RPG
+3 (-),피파온라인 4,㈜넥슨코리아,스포츠
+4 (-),메이플스토리,㈜넥슨코리아,MMORPG
+5 (-),로스트아크,㈜스마일게이트알피지,핵앤슬래시 MMORPG
+6 (-),발로란트,라이엇 게임즈,FPS
+7 (-),서든어택,㈜넥슨코리아,FPS
+8 (-),던전앤파이터,㈜넥슨코리아,벨트 스크롤 액션 RPG
+9 (+1),아이온,㈜엔씨소프트,MMORPG
+10 (-1),마인크래프트,엑스박스 게임 스튜디오,샌드박스
+11 (-),배틀그라운드,"펍지주식회사, 카카오게임즈",서바이벌 슈팅
+12 (-),천하제일상 거상,㈜에이케이인터렉티브,MMORPG
+13 (-),사이퍼즈,㈜넥슨코리아,액션
+14 (+3),마비노기,㈜넥슨코리아,MMORPG
+15 (-1),바람의나라,㈜넥슨코리아,MMORPG
+16 (-1),검은사막,㈜펄어비스,MMORPG
+17 (-1),리니지,㈜엔씨소프트,MMORPG
+18 (-),테일즈런너,㈜스마일게이트메가포트,레이싱
+19 (+1),스타크래프트: 브루드 워,블리자드 엔터테인먼트 코리아,RTS
+20 (+1),디아블로 3,블리자드 엔터테인먼트 코리아,액션 RPG
+21 (+2),엘소드,㈜넥슨코리아,횡스크롤 액션 MMORPG
+22 (-),월드 오브 워크래프트,블리자드 엔터테인먼트 코리아,MMORPG
+23 (-4),크레이지 아케이드 비엔비,㈜넥슨코리아,아케이드
+24 (-),패스 오브 엑자일,㈜카카오게임즈,ARPG
+25 (+3),블레이드앤소울,㈜엔씨소프트,MMORPG
+26 (-1),폴 가이즈,Devolver Digital,아케이드
+27 (-1),리니지 2,㈜엔씨소프트,MMORPG
+28 (-1),디아블로 2 레저렉션,블리자드 엔터테인먼트 코리아,RPG
+29 (+1),디아블로 2,블리자드 엔터테인먼트,RPG
+30 (-1),나이트 워커,(주)넥슨코리아,액션
+31 (+1),아키에이지,㈜엑스엘게임즈,판타지 RPG
+32 (+1),테일즈위버,㈜넥슨코리아,드라마틱 온라인 액션 RPG
+33 (+2),파이널 판타지 14,㈜액토즈소프트,MMORPG
+34 (-3),오버워치 2,블리자드 엔터테인먼트,팀 기반 슈팅
+35 (-1),스페셜포스,㈜드래곤플라이,FPS
+36 (-),라테일,㈜액토즈소프트,횡스크롤 액션 MMORPG
+37 (-),클로저스,㈜넥슨코리아,벨트 스크롤 액션
+38 (-),슬러거,(주)네오위즈,스포츠
+39 (-),마비노기 영웅전,㈜넥슨코리아,액션 RPG
+40 (NEW),아바,(주)네오위즈,FPS/TPS
+1 (-),플레이어언노운스 배틀그라운드,PUBG Corporation,서바이벌 슈팅
+2 (+2),림버스 컴퍼니,ProjectMoon,전략 RPG
+3 (-),스타듀밸리,ConcernedApe,전원생활 시뮬레이션
+4 (+1),스트리트 파이터 6,"CAPCOM Co., Ltd.",격투
+5 (-3),베일드 엑스퍼트,NEXON,FPS/TPS
+6 (-),러스트,Facepunch Studios,FPS
+7 (-),호그와트 레거시,Warner Bros. Games,오픈월드 액션 RPG
+8 (-),어몽 어스,Innersloth,생존
+9 (NEW),Only Up!,SCKR Games,액션
+10 (-1),GTA 5,Rockstar Games,오픈월드 범죄 액션
+11 (-),잇 테이크 투,Electronic Arts,액션
+12 (-2),피파 23,Electronic Arts,스포츠
+13 (-1),엘든 링,"FromSoftware Inc., BANDAI NAMCO Entertainment",오픈월드 액션 RPG
+14 (-1),옥토패스 트래블러 II,스퀘어 에닉스,RPG
+15 (-1),풋볼 매니저 2023,SEGA Europe,시뮬레이션
+16 (-1),이터널 리턴,Nimble Neuron,전략 기반 서바이벌
+17 (+1),더 심즈 4,Electronic Arts,시뮬레이션
+18 (-1),더 라스트 오브 어스 파트1,PlayStation PC LLC,액션 어드벤처
+19 (+1),돈 스타브 투게더,Klei Entertainment,어드벤처
+20 (-1),스트레이,Annapurna Interactive,3인칭 고양이 어드벤처
+21 (+1),콜 오브 듀티: 모던 워페어 2 2022,Activision,FPS
+22 (-1),구스 구스 덕,"Gaggle Studios, Inc.",생존
+23 (-),어 댄스 오브 파이어 앤 아이스,7th Beat Games,리듬
+24 (+1),갓 오브 워,PlayStation PC LLC,액션 어드벤처
+25 (+3),그랜드 체이스,KOG,RPG
+26 (-),데드 바이 데이라이트,Behaviour Digital Inc.,액션
+27 (+2),데이브 더 다이버,MINTROCKET,해양 어드벤처
+28 (-1),하데스,Supergiant Games,액션
+29 (-5),바이오하자드 RE:4,"CAPCOM Co., Ltd.",액션
+30 (+4),사이버펑크 2077,CD PROJEKT RED,오픈월드 액션 RPG
+31 (-1),파피 플레이타임,MOB Games,호러
+32 (-1),"좋은 피자, 위대한 피자",TapBlaze,시뮬레이션
+33 (-),래프트,Square Enix,어드벤처
+34 (+2),포르자 호라이즌 5,Xbox Game Studios,오픈 월드 레이싱
+35 (-3),문명6,2K,턴제 전략
+36 (-1),몬스터 헌터 라이즈,"CAPCOM Co., Ltd.",헌팅 액션
+37 (-),테라리아,Re-Logic,어드벤처
+38 (-),세키로,Activision (Excluding Japan and Asia),액션
+39 (NEW),더 포레스트,Endnight Games Ltd,서바이벌
+40 (-),철권 7,BANDAI NAMCO Entertainment,격투
